@@ -19,13 +19,13 @@ header{
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-ul {
+header ul {
   list-style: none;
   padding-left: 0;
   margin-top: 50px;
   margin-left: 120px;
 }
-a {
+header a {
   text-decoration: none;
   font-family: Federo;
   font-style: normal;
@@ -34,10 +34,10 @@ a {
   color: #BDC3C7;
 
 }
-a:hover {
+header a:hover {
   text-decoration: underline;
 }
-li {
+header li {
     display: inline;
     margin-right: -2px;
     margin-left: 90px;
@@ -220,7 +220,7 @@ margin-top: 97px;
 textarea{
   position: absolute;
 width: 876.88px;
-height: 289.4px;
+height: 200px;
 left: 155px;
 top: 120.6px;
 
@@ -266,6 +266,35 @@ top: 425px;
 label{
   color: #FFFFFF;
 }
-.textideatwo{
-  
+button{
+  position: absolute;
+  width: 241px;
+  height: 56.63px;
+  left: 469px;
+  top: 563px;
+}
+.spiski{
+  position: absolute;
+  padding: 100px;
+
+  font-family: Federo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #FFFFF8;
+}
+.textform{
+position: absolute;
+left: 155px;
+top: 330px;
+}
+.spiskiinput{
+  position: absolute;
+  left: 110px;
+  top: 85px;
 }

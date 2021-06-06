@@ -3,6 +3,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="main.css">
 <link type="image/x-icon" rel="shortcut icon" href="logo.png">
+<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 <header>
@@ -11,6 +12,7 @@
   <li><a href="mods.html" class="menu">Моды</a></li>
   <li><a href="builds.html" class="menu">Постройки</a></li>
   <li><a href="ideas.html" class="menu">Идеи</a></li>
+    <li><a href="ul.html" class="menu">Списки идей</a></li>
   </ul>
 </header>
 <main>
@@ -19,6 +21,10 @@
   </div>
   <textarea name="textarea"
    rows="10" cols="50"></textarea>
+   <form class="textform">
+    <input type="text" placeholder="email" id="email">
+    <input type="text" placeholder="number" id="number">
+    </form>
    <div class="radioone">
     <input type="radio" value="Build">
     <label>Постройка</label>
@@ -27,6 +33,9 @@
     <input type="radio" value="Mod">
     <label>Мод</label>
     </div>
+    <button type = "button" name = "button1" onClick="clickButton();">
+			Отправить
+		</button><br><br>
 </main>
 <footer>
   <div class="footertext"> Сделано Родиным Николаем</div>
